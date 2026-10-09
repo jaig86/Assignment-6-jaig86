@@ -1,0 +1,3 @@
+(1) The serial word search completed in about 0.046 seconds of real time. The user CPU time was about 0.041 seconds and the system time was about 0.005 seconds.
+(2) A data race can happen if multiple pthread workers update the same shared count or shared result array at the same time. After pthread_join waits for all workers to finish, the main thread combines the partial results.
+(3) The OpenMP implementation is simpler than the pthread implementation because OpenMP creates and manages the worker threads automatically using the #pragma omp parallel for directive.
