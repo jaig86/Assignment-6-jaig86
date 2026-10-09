@@ -1,0 +1,7 @@
+*.o
+grep
+grep-parallel
+grep-openmp
+test
+test-parallel
+test-openmp
